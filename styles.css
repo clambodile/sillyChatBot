@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.layout {
+  background: #c1d1db;
+  height: 100%;
+  width: 100%;
+}
+
+button:focus, input[type="text"]:focus {
+  outline: 0;
+}
+
+#navbar {
+  height: 1em;
+  background: #c1d1db;
+  padding: 4px 4px 4px 4px;
+}
+
+#chat_window {
+  height: 70%;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  padding-left: 7px;
+  background: #f8fafa;
+  overflow: scroll;
+}
+
+#text_entry {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+}
+
+#text_entry > .container {
+  height: 3em;
+}
+
+#text_entry > .container > form > button {
+  padding: 1em;
+  margin: 0;
+}
+#text_entry > .container > form > input[type="text"] {
+  margin: 0;
+  height: 3em;
+}
+
+textarea:active,
+textarea:focus {
+  outline: 0px;
+  -webkit-appearance: none;
+}
